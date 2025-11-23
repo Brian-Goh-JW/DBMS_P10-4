@@ -1156,11 +1156,13 @@ static int makeTimestampedBackup(void)
 // print our declaration at the start of the program
 static void printDeclaration(void)
 {
-    time_t now = time(NULL);
-    struct tm *tmPtr = localtime(&now);
+    //time_t now = time(NULL);
+    //struct tm *tmPtr = localtime(&now);
+    const char *dateString = "24/11/2025"; //change to hard code for submission date
 
-    char dateString[32];
-    strftime(dateString, sizeof(dateString), "%Y-%m-%d", tmPtr);
+    //char dateString[32];
+    //strftime(dateString, sizeof(dateString), "%Y-%m-%d", tmPtr);
+    printf("Date of submission: %s\n\n", dateString);
 
     printf("\nDeclaration\n");
     printf("SIT's policy on copying does not allow the students to copy source code as well as assessment solutions\n");

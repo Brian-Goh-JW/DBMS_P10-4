@@ -1,0 +1,7 @@
+2501001	Brian Sample	Digital Supply Chain	90.4
+2501002	Han Yong	Computer Science	92.5
+2501003	Jerrel Tan	Information Security	84.0
+2501004	Kendrick Lim	Software Engineering	76.5
+2501005	Xian Yang	Data Analytics	81.0
+2501006	Alice Lee	Information Technology	73.5
+2501007	David Ong	Computer Engineering	65.0
